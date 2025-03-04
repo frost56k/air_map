@@ -357,27 +357,50 @@ function initMapAndData() {
             }
 
             // Создание маркеров
-            function createMarkers(data) {
-                allMarkers = [];
-                data.forEach(place => {
-                    const coords = parseCoordinates(place);
-                    if (!coords) return;
+// Создание маркеров
+function createMarkers(data) {
+    allMarkers = [];
+    data.forEach(place => {
+        const coords = parseCoordinates(place); // Получаем координаты
+        if (!coords) {
+            console.error(`Invalid coordinates for place: ${place.Title}`);
+            return; // Пропускаем это место, если координаты некорректны
+        }
 
-                    const marker = L.marker([coords.lat, coords.lon])
-                        .bindPopup(`
-                            <b>${place.Title}</b>
-                            ${place.Location}<br><br>
-                            ${place.LocationBY}<br>
-                            Coordinates: ${coords.coordString}<br>
-                            <img src="${place['Photo Path']}" style="max-width:200px;" 
+        const marker = L.marker([coords.lat, coords.lon])
+            .bindPopup(`
+                <div class="popup-container">
+                    <div class="popup-header">
+                        <b>${place.Title}</b>
+                    </div>
+                    <div class="popup-content">
+                        <div class="popup-info">
+                            <div class="popup-location">
+                                <span>${place.Location}</span>
+                                <span>${place.LocationBY}</span>
+                            </div>
+                            <div class="popup-coordinates">
+                                <span>${coords.coordString}</span>
+                            </div>
+                        </div>
+                        <div class="popup-image-container">
+                            <img src="${place['Photo Path']}" 
+                                 class="popup-image" 
                                  onerror="this.style.display='none'" 
                                  onclick="openModal('${place['Photo Path']}')">
-                        `, {
-                            autoPan: false
-                        });
-                    allMarkers.push(marker);
-                });
-            }
+                            <button class="popup-image-button" onclick="openModal('${place['Photo Path']}')">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `, {
+                autoPan: false,
+                className: 'custom-popup'
+            });
+        allMarkers.push(marker);
+    });
+}
 
             // Обновление маркеров
             function updateMarkers(data) {

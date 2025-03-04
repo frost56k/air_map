@@ -417,3 +417,100 @@ body {
 #mobile-menubtn {
     z-index: 1001; /* Выше всех элементов */
 }
+
+/* Стили для popup */
+.custom-popup .leaflet-popup-content-wrapper {
+    padding: 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.custom-popup .leaflet-popup-content {
+    margin: 0;
+    width: 250px !important; /* Фиксированная ширина */
+}
+
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.popup-header {
+    padding: 12px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.popup-content {
+    padding: 12px;
+}
+
+.popup-info {
+    margin-bottom: 12px;
+}
+
+.popup-location {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+    color: #555;
+}
+
+.popup-coordinates {
+    font-size: 12px;
+    color: #777;
+    margin-top: 8px;
+}
+
+.popup-image-container {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.popup-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+
+.popup-image-container:hover .popup-image {
+    transform: scale(1.05);
+}
+
+.popup-image-button {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.popup-image-button:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+.popup-image-button i {
+    font-size: 14px;
+    color: #333;
+}
