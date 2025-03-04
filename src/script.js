@@ -452,12 +452,24 @@ function createMarkers(data) {
                     const placeDiv = document.createElement('div');
                     placeDiv.className = 'place-item';
                     placeDiv.innerHTML = `
-                        <img class="place-image" data-src="${place['Photo Path']}" alt="${place.Title}" onclick="openModal('${place['Photo Path']}')">
+                        <div class="place-image-container">
+                            <img class="place-image" 
+                                 data-src="${place['Photo Path']}" 
+                                 alt="${place.Title}" 
+                                 onclick="openModal('${place['Photo Path']}')">
+                            <button class="place-image-button" onclick="openModal('${place['Photo Path']}')">
+                                <i class="fas fa-expand"></i>
+                            </button>
+                        </div>
                         <div class="place-info">
                             <div class="place-title">${place.Title}</div>
-                            <div>${place.LocationBY}</div>
-                            <div>${place.Location}</div>
-                            <div>${coordString}</div>
+                            <div class="place-location">
+                                <span>${place.LocationBY}</span>
+                                <span>${place.Location}</span>
+                            </div>
+                            <div class="place-coordinates">
+                                ${coordString}
+                            </div>
                         </div>
                     `;
 

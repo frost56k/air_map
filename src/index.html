@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Гісторыя з вышыні: Аэрафотаздымкі Беларусі</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-       <!-- Подключение Font Awesome -->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Open Graph (для Facebook, Telegram, LinkedIn) -->
-<meta property="og:title" content="Гісторыя з вышыні: Аэрафотаздымкі Беларусі">
-<meta property="og:description" content="Гісторыя з вышыні: Аэрафотаздымкі Беларусі — праект, які дазваляе параўноўваць гістарычныя аэрафотаздымкі 1944 года з сучаснымі мапамі. Вывучайце зьмены ў гарадох, вёсках і ляндшафтах Беларусі з часоў Другой сусьветнай вайны. Праект заснаваны на архіўных здымках нямецкай Люфтвафэ, якія захоўваюцца ў Нацыянальным архіве ЗША.">
-<meta property="og:image" content="https://aerohistoryby.vercel.app/public/hero.jpg">
-<meta property="og:url" content="https://yourwebsite.com">
-<meta property="og:type" content="website">
-
-<!-- Twitter Card (для Twitter) -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Гісторыя з вышыні: Аэрафотаздымкі Беларусі">
-<meta name="twitter:description" content="Праект Гісторыя з вышыні параўноўвае аэрафотаздымкі Беларусі 1944 года з сучаснымі мапамі. Дасьледуйце зьмены ў гарадох, вёсках і ляндшафтах з часоў Другой сусьветнай вайны. Гістарычныя здымкі з архіваў ЗША — для вывучэння і захавання гісторыі.">
-<meta name="twitter:image" content="https://aerohistoryby.vercel.app/public/hero.jpg">
-
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Гісторыя з вышыні: Аэрафотаздымкі Беларусі</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="../public/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../public/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../public/favicon-16x16.png">
+        <link rel="manifest" href="../public/site.webmanifest">
+        <!-- Подключение Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <!-- Open Graph (для Facebook, Telegram, LinkedIn) -->
+        <meta property="og:title" content="Гісторыя з вышыні: Аэрафотаздымкі Беларусі">
+        <meta property="og:description" content="Гісторыя з вышыні: Аэрафотаздымкі Беларусі — праект, які дазваляе параўноўваць гістарычныя аэрафотаздымкі 1944 года з сучаснымі мапамі. Вывучайце зьмены ў гарадох, вёсках і ляндшафтах Беларусі з часоў Другой сусьветнай вайны. Праект заснаваны на архіўных здымках нямецкай Люфтвафэ, якія захоўваюцца ў Нацыянальным архіве ЗША.">
+        <meta property="og:image" content="https://aerohistoryby.vercel.app/public/hero.jpg">
+        <meta property="og:url" content="https://yourwebsite.com">
+        <meta property="og:type" content="website">
+        <!-- Twitter Card (для Twitter) -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Гісторыя з вышыні: Аэрафотаздымкі Беларусі">
+        <meta name="twitter:description" content="Праект Гісторыя з вышыні параўноўвае аэрафотаздымкі Беларусі 1944 года з сучаснымі мапамі. Дасьледуйце зьмены ў гарадох, вёсках і ляндшафтах з часоў Другой сусьветнай вайны. Гістарычныя здымкі з архіваў ЗША — для вывучэння і захавання гісторыі.">
+        <meta name="twitter:image" content="https://aerohistoryby.vercel.app/public/hero.jpg">
+    </head>
+    
 <body>
     <div id="sidebar">
         <div class="mobile-header">
