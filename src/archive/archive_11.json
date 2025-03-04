@@ -1,0 +1,702 @@
+[
+    {
+      "Title": "TUGX 450 SK, Exposure 415",
+      "Coordinates": "54.5497062920763, 28.6053365307149",
+      "Location": "Krashavitsy, Minsk, Belarus",
+      "Location BY": "Крашавіцы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789638_TUGX_0450_SK_415_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 450 SK, Exposure 417",
+      "Coordinates": "54.5473522358715, 28.6954988961169",
+      "Location": "Moyseyevshchina, Minsk, Belarus",
+      "Location BY": "Майсееўшчына, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789638_TUGX_0450_SK_417_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 450 SK, Exposure 419",
+      "Coordinates": "54.5442695300259, 28.8236533615455",
+      "Location": "Mkherino Pervoye, Minsk, Belarus",
+      "Location BY": "Мхерына Першае, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789638_TUGX_0450_SK_419_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 450 SK, Exposure 421",
+      "Coordinates": "54.5417858108719, 28.8824540547577",
+      "Location": "Mkherino Vtoroye, Minsk, Belarus",
+      "Location BY": "Мхерына Другое, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789638_TUGX_0450_SK_421_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 450 SK, Exposure 423",
+      "Coordinates": "54.5437516897042, 28.9849683204159",
+      "Location": "Kholopenichi, Minsk, Belarus",
+      "Location BY": "Халопенічы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789638_TUGX_0450_SK_423_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 450 SK, Exposure 425",
+      "Coordinates": "54.5456528247734, 29.0758064858019",
+      "Location": "Barki, Minsk, Belarus",
+      "Location BY": "Баркі, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789638_TUGX_0450_SK_425_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 450 SK, Exposure 427",
+      "Coordinates": "54.5457633167326, 29.0933990461053",
+      "Location": "Barki, Minsk, Belarus",
+      "Location BY": "Баркі, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789638_TUGX_0450_SK_427_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 229",
+      "Coordinates": "54.5988521084103, 25.5681992905892",
+      "Location": "Kamyenny Loh, Hrodna, Belarus",
+      "Location BY": "Каменны Лог, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_229_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 231",
+      "Coordinates": "54.6037963753246, 25.6650056000479",
+      "Location": "Kamyenny Loh, Hrodna, Belarus",
+      "Location BY": "Каменны Лог, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_231_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 233",
+      "Coordinates": "54.5997515174349, 25.7226618281459",
+      "Location": "Losha, Hrodna, Belarus",
+      "Location BY": "Лоша, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_233_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 235",
+      "Coordinates": "54.5959341868706, 25.7999985120228",
+      "Location": "Losha, Hrodna, Belarus",
+      "Location BY": "Лоша, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_235_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 237",
+      "Coordinates": "54.5968530127181, 25.8205694559656",
+      "Location": "Balkany, Hrodna, Belarus",
+      "Location BY": "Балканы, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_237_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 239",
+      "Coordinates": "54.5966737776644, 25.840221717248",
+      "Location": "Balkany, Hrodna, Belarus",
+      "Location BY": "Балканы, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_239_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 241",
+      "Coordinates": "54.5991091606379, 25.9001539086629",
+      "Location": "Hrodna, Belarus",
+      "Location BY": "Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_241_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 243",
+      "Coordinates": "54.5972643085172, 26.0040279975448",
+      "Location": "Treygi, Hrodna, Belarus",
+      "Location BY": "Трэйгі, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_243_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 245",
+      "Coordinates": "54.5969733167792, 26.0850103789331",
+      "Location": "Keleyti, Hrodna, Belarus",
+      "Location BY": "Келейці, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_245_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 247",
+      "Coordinates": "54.5929321701543, 26.1472208136027",
+      "Location": "Jakientany, Hrodna, Belarus",
+      "Location BY": "Якенчаны, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_247_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 249",
+      "Coordinates": "54.5946883897941, 26.2597809822465",
+      "Location": "Voleykovichi, Hrodna, Belarus",
+      "Location BY": "Валейковічы, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_249_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 251",
+      "Coordinates": "54.5946473851267, 26.3128390188585",
+      "Location": "Trostniki, Hrodna, Belarus",
+      "Location BY": "Траснікі, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_251_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 253",
+      "Coordinates": "54.6040806042939, 26.4579262552499",
+      "Location": "Hrodna, Belarus",
+      "Location BY": "Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_253_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 255",
+      "Coordinates": "54.6067159198488, 26.5438007452189",
+      "Location": "Leszczenieta, Hrodna, Belarus",
+      "Location BY": "Лешчанеці, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_255_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 257",
+      "Coordinates": "54.6042466038923, 26.6273778334729",
+      "Location": "Pogorzelszczyzna, Hrodna, Belarus",
+      "Location BY": "Пагарэльшчына, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_257_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 259",
+      "Coordinates": "54.6006488775052, 26.7086548615791",
+      "Location": "Grzybek, Minsk, Belarus",
+      "Location BY": "Грыбок, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_259_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 261",
+      "Coordinates": "54.5972489558093, 26.8196770910131",
+      "Location": "Lyuban', Minsk, Belarus",
+      "Location BY": "Любань, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_261_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 263",
+      "Coordinates": "54.5983360875265, 26.8806971355051",
+      "Location": "Lyuban', Minsk, Belarus",
+      "Location BY": "Любань, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_263_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 265",
+      "Coordinates": "54.6001555444033, 26.9769662247882",
+      "Location": "Golyanovo, Minsk, Belarus",
+      "Location BY": "Галянава, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_265_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 267",
+      "Coordinates": "54.6000557578438, 27.0553890760633",
+      "Location": "Strazh, Stantsyya, Minsk, Belarus",
+      "Location BY": "Страж, Станцыя, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_267_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 269",
+      "Coordinates": "54.6038702026841, 27.1544164309934",
+      "Location": "Kowieniów, Minsk, Belarus",
+      "Location BY": "Кавенёў, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_269_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 271",
+      "Coordinates": "54.6070908552981, 27.2374269384591",
+      "Location": "Ozierodowicze, Minsk, Belarus",
+      "Location BY": "Азерадовічы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_271_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 273",
+      "Coordinates": "54.6044155711113, 27.3451585398208",
+      "Location": "Starzynki, Minsk, Belarus",
+      "Location BY": "Старзынкі, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_273_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 274",
+      "Coordinates": "54.6069068531134, 27.3808718200021",
+      "Location": "Zamoshe Pervoye, Minsk, Belarus",
+      "Location BY": "Замошша Першае, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_274_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 275",
+      "Coordinates": "54.6085927762379, 27.3991874918775",
+      "Location": "Polany, Minsk, Belarus",
+      "Location BY": "Паляны, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_275_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 276",
+      "Coordinates": "54.6065569846298, 27.4298624681955",
+      "Location": "Polany, Minsk, Belarus",
+      "Location BY": "Паляны, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_276_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 277",
+      "Coordinates": "54.6047762426203, 27.4761011072214",
+      "Location": "Onoszki, Minsk, Belarus",
+      "Location BY": "Аношкі, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_277_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 278",
+      "Coordinates": "54.6064323275547, 27.4985356986043",
+      "Location": "Onoszki, Minsk, Belarus",
+      "Location BY": "Аношкі, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_278_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 279",
+      "Coordinates": "54.6056921979611, 27.520054415985",
+      "Location": "Stakhy, Minsk, Belarus",
+      "Location BY": "Стахі, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_279_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 280",
+      "Coordinates": "54.6062677705146, 27.5255510305989",
+      "Location": "Stakhy, Minsk, Belarus",
+      "Location BY": "Стахі, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_280_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 281",
+      "Coordinates": "54.6044471273085, 27.5347093878089",
+      "Location": "Stakhy, Minsk, Belarus",
+      "Location BY": "Стахі, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_281_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 282",
+      "Coordinates": "54.6047376186101, 27.5502760106094",
+      "Location": "Stakhy, Minsk, Belarus",
+      "Location BY": "Стахі, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_282_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 283",
+      "Coordinates": "54.6044878564765, 27.587357114612",
+      "Location": "Pohost, Minsk, Belarus",
+      "Location BY": "Пагост, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_283_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 284",
+      "Coordinates": "54.6034327582422, 27.6386294319377",
+      "Location": "Vygor', Minsk, Belarus",
+      "Location BY": "Выгар, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_284_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 285",
+      "Coordinates": "54.603428194002, 27.6798298441879",
+      "Location": "Izbiszcze, Minsk, Belarus",
+      "Location BY": "Ізбішча, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_285_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 286",
+      "Coordinates": "54.6023530240553, 27.7310997813823",
+      "Location": "Gornoye, Minsk, Belarus",
+      "Location BY": "Горнае, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_286_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 287",
+      "Coordinates": "54.601267872452, 27.7910680373647",
+      "Location": "Zador'ye, Minsk, Belarus",
+      "Location BY": "Задор’е, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_287_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 289",
+      "Coordinates": "54.6006585219108, 27.9018445177321",
+      "Location": "Litwicze, Minsk, Belarus",
+      "Location BY": "Літвічы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_289_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 291",
+      "Coordinates": "54.6002746148047, 27.9581442771022",
+      "Location": "Wasilkówka, Minsk, Belarus",
+      "Location BY": "Васількоўка, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_291_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 293",
+      "Coordinates": "54.6005727423635, 28.0550446975405",
+      "Location": "Gavarets, Minsk, Belarus",
+      "Location BY": "Гаварец, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_293_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 295",
+      "Coordinates": "54.5992223506655, 28.1514893370807",
+      "Location": "Nivki, Minsk, Belarus",
+      "Location BY": "Ніўкі, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_295_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 297",
+      "Coordinates": "54.597018608497, 28.2190926446248",
+      "Location": "Mstizh, Minsk, Belarus",
+      "Location BY": "Мсціж, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_297_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 299",
+      "Coordinates": "54.6000609629203, 28.3109612251305",
+      "Location": "Berezinskiy Kanal, Vitsyebsk, Belarus",
+      "Location BY": "Бярэзінскі Канал, Віцебск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_299_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 301",
+      "Coordinates": "54.6001286557561, 28.4188530479255",
+      "Location": "Vitsyebsk, Belarus",
+      "Location BY": "Віцебск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_301_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 303",
+      "Coordinates": "54.6025253074417, 28.5079754815503",
+      "Location": "Glubochitsa, Minsk, Belarus",
+      "Location BY": "Глубочыца, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_303_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 311",
+      "Coordinates": "54.6111579822684, 28.3439204123008",
+      "Location": "Postrezhtse, Vitsyebsk, Belarus",
+      "Location BY": "Пастрэжце, Віцебск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_311_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 313",
+      "Coordinates": "54.6031982265583, 28.4886340104429",
+      "Location": "Glubochitsa, Minsk, Belarus",
+      "Location BY": "Глубочыца, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_313_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 315",
+      "Coordinates": "54.6004706840602, 28.5716544807277",
+      "Location": "Studënka Vtoraya, Minsk, Belarus",
+      "Location BY": "Студзёнка Другая, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_315_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 317",
+      "Coordinates": "54.5975490875241, 28.6423137212368",
+      "Location": "Selets, Minsk, Belarus",
+      "Location BY": "Сялец, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_317_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 319",
+      "Coordinates": "54.5986765458953, 28.7399780528648",
+      "Location": "Statkovshchina, Minsk, Belarus",
+      "Location BY": "Статкаўшчына, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_319_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 321",
+      "Coordinates": "54.597488675409, 28.8090289354194",
+      "Location": "Kalechenka, Minsk, Belarus",
+      "Location BY": "Калечанка, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_321_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 323",
+      "Coordinates": "54.5982284638121, 28.9112642106827",
+      "Location": "Gravki, Vitsyebsk, Belarus",
+      "Location BY": "Граўкі, Віцебск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_323_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 325",
+      "Coordinates": "54.5986418281969, 29.0061715398025",
+      "Location": "Stolovtsy, Vitsyebsk, Belarus",
+      "Location BY": "Сталовцы, Віцебск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_325_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 451 SK, Exposure 327",
+      "Coordinates": "54.5950160212202, 29.044999908833",
+      "Location": "Pasemkovichi, Vitsyebsk, Belarus",
+      "Location BY": "Пасемковічы, Віцебск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789639_TUGX_0451_SK_327_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 0",
+      "Coordinates": "53.8808971721199, 27.604093264212",
+      "Location": "Minsk-Uskhodni, Stantsyya, Minsk, Belarus",
+      "Location BY": "Мінск-Усходні, Станцыя, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_00_01_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 1",
+      "Coordinates": "53.8717813595362, 27.591370258796",
+      "Location": "Sheipichi, Minsk, Belarus",
+      "Location BY": "Шэйпічы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_01_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 2",
+      "Coordinates": "53.8609667785945, 27.5751469130999",
+      "Location": "Sheipichi, Minsk, Belarus",
+      "Location BY": "Шэйпічы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_02_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 5",
+      "Coordinates": "53.8370167214456, 27.5333830934927",
+      "Location": "Syenitsa, Minsk, Belarus",
+      "Location BY": "Сяніца, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_05_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 6",
+      "Coordinates": "53.8270044091513, 27.517071890036",
+      "Location": "Minsk, Belarus",
+      "Location BY": "Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_06_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 7",
+      "Coordinates": "53.8182730155684, 27.504200012308",
+      "Location": "Minsk, Belarus",
+      "Location BY": "Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_07_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 8",
+      "Coordinates": "53.809472615739, 27.4924793820294",
+      "Location": "Minsk, Belarus",
+      "Location BY": "Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_08_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 9",
+      "Coordinates": "53.7995885244215, 27.4769881511718",
+      "Location": "Minsk, Belarus",
+      "Location BY": "Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_09_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 10",
+      "Coordinates": "53.7895674345391, 27.4618473053544",
+      "Location": "Minsk, Belarus",
+      "Location BY": "Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_10_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 11",
+      "Coordinates": "53.7808964931292, 27.4441953020223",
+      "Location": "Podgai, Minsk, Belarus",
+      "Location BY": "Падгай, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_11_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 12",
+      "Coordinates": "53.7735089028016, 27.4228877352787",
+      "Location": "Minsk, Belarus",
+      "Location BY": "Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_12_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 13",
+      "Coordinates": "53.7635495801162, 27.4053632602325",
+      "Location": "Vawchkovichy, Minsk, Belarus",
+      "Location BY": "Ваўчковічы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_13_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 14",
+      "Coordinates": "53.7529693819632, 27.393493529802",
+      "Location": "Volchkovichi, Minsk, Belarus",
+      "Location BY": "Волчковічы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_14_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 15",
+      "Coordinates": "53.7136347766813, 27.5788872122926",
+      "Location": "Karolino, Minsk, Belarus",
+      "Location BY": "Кароліна, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_15_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 16",
+      "Coordinates": "53.7179380571563, 27.598156683474",
+      "Location": "Karolino, Minsk, Belarus",
+      "Location BY": "Кароліна, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_16_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 17",
+      "Coordinates": "53.7217591052318, 27.6162681275536",
+      "Location": "Karolino, Minsk, Belarus",
+      "Location BY": "Кароліна, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_17_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 18",
+      "Coordinates": "53.7259156493356, 27.6372438654373",
+      "Location": "Asyeyewka, Prypynachny Punkt, Minsk, Belarus",
+      "Location BY": "Асееўка, Прыпыначны Пункт, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_18_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 19",
+      "Coordinates": "53.7312199961723, 27.6506697788334",
+      "Location": "Asyeyewka, Prypynachny Punkt, Minsk, Belarus",
+      "Location BY": "Асееўка, Прыпыначны Пункт, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_19_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 20",
+      "Coordinates": "53.7357763545127, 27.668447718",
+      "Location": "Mikhanavichy, Minsk, Belarus",
+      "Location BY": "Міханавічы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_20_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 452 SK, Exposure 21",
+      "Coordinates": "53.7353149420173, 27.6930791720299",
+      "Location": "Mikhanavichy, Minsk, Belarus",
+      "Location BY": "Міханавічы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789640_TUGX_0452_SK_21_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 453 SK, Exposure 13",
+      "Coordinates": "53.8624435921143, 27.5153734202383",
+      "Location": "Stalichny, Prypynachny Punkt, Minsk, Belarus",
+      "Location BY": "Сталічны, Прыпыначны Пункт, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789641_TUGX_0453_SK_13_01_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 453 SK, Exposure 14",
+      "Coordinates": "53.8644566035887, 27.5169674189978",
+      "Location": "Stalichny, Prypynachny Punkt, Minsk, Belarus",
+      "Location BY": "Сталічны, Прыпыначны Пункт, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789641_TUGX_0453_SK_14_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 454 SK, Exposure 37",
+      "Coordinates": "53.5283001155867, 24.3486847151198",
+      "Location": "Khaneviche, Hrodna, Belarus",
+      "Location BY": "Ханевічы, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789642_TUGX_0454_SK_37_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 454 SK, Exposure 38",
+      "Coordinates": "53.5620690810458, 24.3241430135334",
+      "Location": "Strel'tsy, Hrodna, Belarus",
+      "Location BY": "Стрэльцы, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789642_TUGX_0454_SK_38_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 454 SK, Exposure 39",
+      "Coordinates": "53.5857770976783, 24.3604725542128",
+      "Location": "Osniki, Hrodna, Belarus",
+      "Location BY": "Аснікі, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789642_TUGX_0454_SK_39_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 454 SK, Exposure 40",
+      "Coordinates": "53.6143681609326, 24.3372880662819",
+      "Location": "Belyakovshchyzna, Hrodna, Belarus",
+      "Location BY": "Белякаўшчызна, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789642_TUGX_0454_SK_40_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 454 SK, Exposure 41",
+      "Coordinates": "53.6348274296453, 24.2948660104121",
+      "Location": "Golovachi, Hrodna, Belarus",
+      "Location BY": "Галавічы, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789642_TUGX_0454_SK_41_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 4",
+      "Coordinates": "53.9091056878598, 27.0914840407242",
+      "Location": "Traskowshchyna, Minsk, Belarus",
+      "Location BY": "Траскоўшчына, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_04_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 5",
+      "Coordinates": "53.9100698685829, 27.0961287611238",
+      "Location": "Traskowshchyna, Minsk, Belarus",
+      "Location BY": "Траскоўшчына, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_05_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 6",
+      "Coordinates": "53.9110278309778, 27.1002442060642",
+      "Location": "Traskowshchyna, Minsk, Belarus",
+      "Location BY": "Траскоўшчына, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_06_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 7",
+      "Coordinates": "53.9120865992301, 27.104646490183",
+      "Location": "Traskowshchyna, Minsk, Belarus",
+      "Location BY": "Траскоўшчына, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_07_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 8",
+      "Coordinates": "53.9127912395861, 27.1074759712801",
+      "Location": "Traskowshchyna, Minsk, Belarus",
+      "Location BY": "Траскоўшчына, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_08_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 9",
+      "Coordinates": "53.9136581590271, 27.1109491818119",
+      "Location": "Traskowshchyna, Minsk, Belarus",
+      "Location BY": "Траскоўшчына, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_09_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 10",
+      "Coordinates": "53.8507871473914, 26.9673157020057",
+      "Location": "Kovalëvtsy, Minsk, Belarus",
+      "Location BY": "Кавалёўцы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_10_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 11",
+      "Coordinates": "53.8518516116028, 26.9626488390912",
+      "Location": "Kovalëvtsy, Minsk, Belarus",
+      "Location BY": "Кавалёўцы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_11_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 12",
+      "Coordinates": "53.8527752782834, 26.957680960803",
+      "Location": "Kovalëvtsy, Minsk, Belarus",
+      "Location BY": "Кавалёўцы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_12_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 13",
+      "Coordinates": "53.8538506609413, 26.9542005574736",
+      "Location": "Kovalëvtsy, Minsk, Belarus",
+      "Location BY": "Кавалёўцы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_13_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 14",
+      "Coordinates": "53.8540595814257, 26.9512488435605",
+      "Location": "Kovalëvtsy, Minsk, Belarus",
+      "Location BY": "Кавалёўцы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_14_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 455 SK, Exposure 15",
+      "Coordinates": "53.939651576188, 26.9756984754349",
+      "Location": "Sidorovtse, Minsk, Belarus",
+      "Location BY": "Сідароўцы, Мінск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789643_TUGX_0455_SK_15_01.jpg/full/1000,/0/default.jpg"
+    }
+  ]

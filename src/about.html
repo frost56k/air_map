@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="title">Гісторыя з вышыні: Аэрафотаздымкі Беларусі</title>
+    <style>
+        :root {
+            --primary-color: #3c2f2f;
+            --secondary-color: #f5f5f5;
+            --accent-color: #a67c00;
+            --text-color: #333;
+            --spacing-unit: 1.5rem;
+            --spacing-small: 0.75rem;
+            --transition: all 0.3s ease-out;
+        }
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            letter-spacing: 0.02em;
+            color: var(--text-color);
+            background-color: var(--secondary-color);
+            overflow-x: hidden;
+        }
+    
+        header {
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            padding: var(--spacing-unit);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .desktop-nav {
+            display: flex;
+            align-items: center;
+        }
+    
+        .desktop-nav ul {
+            display: flex;
+            list-style: none;
+        }
+    
+        .desktop-nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: var(--spacing-small) 1rem;
+            font-size: clamp(0.9rem, 2vw, 1.1rem);
+            transition: var(--transition);
+        }
+    
+        .desktop-nav a:hover, .desktop-nav a.active {
+            color: var(--accent-color);
+            background: rgba(166, 124, 0, 0.1);
+            border-radius: 5px;
+        }
+    
+        .desktop-nav a:focus {
+            outline: 2px solid var(--accent-color);
+            outline-offset: 2px;
+        }
+    
+        .mobile-nav {
+            display: none;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .slider {
+            position: relative;
+            width: 70%;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+        }
+    
+        .slides {
+            display: flex;
+            transition: transform var(--transition);
+            width: 100%;
+        }
+    
+        .slides a {
+            flex: 0 0 100%;
+            text-align: center;
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: var(--spacing-small) 0;
+            font-size: clamp(0.9rem, 2vw, 1rem);
+            transition: var(--transition);
+        }
+    
+        .slides a:hover, .slides a.active {
+            color: var(--accent-color);
+            background: rgba(166, 124, 0, 0.1);
+        }
+    
+        .slider button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--accent-color);
+            color: #fff;
+            border: none;
+            padding: 0.5rem;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+    
+        .slider .prev {
+            left: 0;
+            border-radius: 0 5px 5px 0;
+        }
+    
+        .slider .next {
+            right: 0;
+            border-radius: 5px 0 0 5px;
+        }
+    
+        .slider button:hover {
+            background: var(--primary-color);
+        }
+    
+        .lang-switcher {
+            display: flex;
+            gap: 0.5rem;
+        }
+    
+        .lang-switcher button {
+            background: none;
+            border: none;
+            color: var(--primary-color);
+            font-size: clamp(0.9rem, 2vw, 1rem);
+            cursor: pointer;
+            padding: var(--spacing-small);
+            transition: var(--transition);
+        }
+    
+        .lang-switcher button:hover, .lang-switcher button.active {
+            color: var(--accent-color);
+        }
+    
+        .desktop-lang {
+            margin-left: auto; /* Прижимает переключатель языков к правому краю на десктопе */
+        }
+    
+        section {
+            padding: calc(var(--spacing-unit) * 2) var(--spacing-unit);
+            max-width: 1200px;
+            margin: 0 auto;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+    
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    
+        h1, h2 {
+            font-size: clamp(1.75rem, 4vw, 2.75rem);
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-unit);
+        }
+    
+        p, li {
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
+            margin-bottom: var(--spacing-unit);
+        }
+    
+        .heroh1 {
+            color: #f5f5f5;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+        }
+    
+        #hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            overflow: hidden;
+        }
+    
+        #hero .parallax-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('/aircraft.jpg') no-repeat center center;
+            background-size: cover;
+            z-index: -2;
+            transform: translateY(0);
+        }
+    
+        #hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: -1;
+        }
+    
+        .cta-button {
+            display: inline-block;
+            padding: var(--spacing-small) calc(var(--spacing-unit) * 1.5);
+            background: var(--accent-color);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            transition: var(--transition);
+        }
+    
+        .cta-button:hover, .cta-button:focus {
+            background: var(--primary-color);
+            transform: scale(1.05);
+            outline: none;
+        }
+    
+        .image-compare {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            margin-bottom: var(--spacing-unit);
+        }
+    
+        .image-compare .before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('omapscolor.jpeg') no-repeat center center;
+            background-size: cover;
+            clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+        }
+    
+        .image-compare .after {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    
+        .image-compare input[type="range"] {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            transform: translateY(-50%);
+            z-index: 2;
+            -webkit-appearance: none;
+            background: transparent;
+        }
+    
+        .image-compare input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 10px;
+            height: 400px;
+            background: var(--accent-color);
+            cursor: ew-resize;
+        }
+    
+        .image-compare input[type="range"]:focus {
+            outline: none;
+        }
+    
+        footer {
+            text-align: center;
+            padding: var(--spacing-unit);
+            background: var(--primary-color);
+            color: #fff;
+        }
+    
+        @media (max-width: 768px) {
+            .desktop-nav {
+                display: none;
+            }
+    
+            .mobile-nav {
+                display: flex;
+            }
+    
+            header {
+                flex-direction: row;
+                align-items: center;
+            }
+    
+            .lang-switcher {
+                width: 30%;
+                justify-content: flex-end;
+            }
+    
+            .desktop-lang {
+                display: none; /* Скрываем десктопный переключатель на мобильных */
+            }
+        }
+    
+        @media (max-width: 480px) {
+            .slider {
+                width: 60%;
+            }
+    
+            .lang-switcher {
+                width: 40%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="desktop-nav" aria-label="Основная навигация">
+            <nav>
+                <ul>
+                    <li><a href="#hero" class="active" data-lang-key="nav_home">Главная</a></li>
+                    <li><a href="#history" data-lang-key="nav_history">Исторический контекст</a></li>
+                    <li><a href="#significance" data-lang-key="nav_significance">Значимость</a></li>
+                    <li><a href="#technical" data-lang-key="nav_technical">Технические аспекты</a></li>
+                    <li><a href="#conclusion" data-lang-key="nav_conclusion">Заключение</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="lang-switcher desktop-lang">
+            <button data-lang="be" class="active">BE</button>
+            <button data-lang="ru">RU</button>
+        </div>
+        <div class="mobile-nav">
+            <div class="slider">
+                <div class="slides">
+                    <a href="#hero" class="active" data-lang-key="nav_home">Главная</a>
+                    <a href="#history" data-lang-key="nav_history">Исторический контекст</a>
+                    <a href="#significance" data-lang-key="nav_significance">Значимость</a>
+                    <a href="#technical" data-lang-key="nav_technical">Технические аспекты</a>
+                    <a href="#conclusion" data-lang-key="nav_conclusion">Заключение</a>
+                </div>
+                <button class="prev" aria-label="Предыдущий пункт меню">‹</button>
+                <button class="next" aria-label="Следующий пункт меню">›</button>
+            </div>
+            <div class="lang-switcher">
+                <button data-lang="be" class="active">BE</button>
+                <button data-lang="ru">RU</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="hero" aria-labelledby="hero-heading">
+            <div class="parallax-bg"></div>
+            <h2 class="heroh1" id="hero-heading" data-lang-key="hero_title">Слои времени: от снимков к картам</h2>
+            <p data-lang-key="hero_p1">Представьте себе возможность взглянуть на Беларусь...</p>
+            <p data-lang-key="hero_p2">Сайт позволяет пользователям исследовать...</p>
+            <a href="/" class="cta-button" data-lang-key="cta_explore">Исследовать карту</a>
+        </section>
+        <section id="history" aria-labelledby="history-heading">
+            <h2 id="history-heading" data-lang-key="history_title">Исторический контекст</h2>
+            <p data-lang-key="history_p1">Во время Второй мировой войны...</p>
+            <p data-lang-key="history_p2">Беларусь играла особую роль...</p>
+        </section>
+        <section id="significance" aria-labelledby="significance-heading">
+            <h2 id="significance-heading" data-lang-key="significance_title">Значимость</h2>
+            <p data-lang-key="significance_p1">Этот проект глубоко значим...</p>
+            <ul>
+                <li data-lang-key="significance_li1"><strong>Сохранение белорусской истории:</strong> Оцифровка...</li>
+                <li data-lang-key="significance_li2"><strong>Образовательная ценность:</strong> Для учителей...</li>
+                <li data-lang-key="significance_li3"><strong>Личная связь с прошлым:</strong> Для жителей...</li>
+                <li data-lang-key="significance_li4"><strong>Исследование изменений:</strong> Сравнение...</li>
+            </ul>
+            <p data-lang-key="significance_p2">Проект делает историю...</p>
+        </section>
+        <section id="technical" aria-labelledby="technical-heading">
+            <h2 id="technical-heading" data-lang-key="technical_title">Технические аспекты</h2>
+            <p data-lang-key="technical_p1">Ключевая особенность проекта...</p>
+            <p data-lang-key="technical_p2">Интерфейс сайта интуитивно понятен...</p>
+        </section>
+        <section id="conclusion" aria-labelledby="conclusion-heading">
+            <h2 id="conclusion-heading" data-lang-key="conclusion_title">Заключение</h2>
+            <p data-lang-key="conclusion_p1">Этот проект — больше, чем...</p>
+            <a href="/" class="cta-button" data-lang-key="cta_explore">Исследовать карту</a>
+        </section>
+    </main>
+    <footer>
+        <p data-lang-key="footer">© 2025 История с высоты: Аэрофотоснимки Беларуси</p>
+    </footer>
+
+    <script src="local.js"></script>
+    <script>
+        function updateLanguage(lang) {
+            document.querySelectorAll('[data-lang-key]').forEach(element => {
+                const key = element.getAttribute('data-lang-key');
+                element.innerHTML = translations[lang][key];
+            });
+            document.documentElement.lang = lang === 'be' ? 'be' : 'ru';
+            document.querySelectorAll('.lang-switcher button').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+            });
+        }
+
+        function initSlider() {
+            const slides = document.querySelector('.slides');
+            const slideItems = document.querySelectorAll('.slides a');
+            const prevBtn = document.querySelector('.prev');
+            const nextBtn = document.querySelector('.next');
+            let currentIndex = 0;
+            let isMobile = window.innerWidth <= 768;
+
+            function updateSlider(index) {
+                if (typeof index === 'number') currentIndex = index;
+                const slideWidth = slides.clientWidth;
+                slides.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+                slideItems.forEach((item, i) => {
+                    item.classList.toggle('active', i === currentIndex);
+                });
+            }
+
+            function scrollToSection(index) {
+                const sectionId = slideItems[index].getAttribute('href').substring(1);
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    section.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+
+            if (isMobile) {
+                prevBtn.addEventListener('click', () => {
+                    currentIndex = (currentIndex > 0) ? currentIndex - 1 : slideItems.length - 1;
+                    updateSlider();
+                    scrollToSection(currentIndex);
+                });
+
+                nextBtn.addEventListener('click', () => {
+                    currentIndex = (currentIndex < slideItems.length - 1) ? currentIndex + 1 : 0;
+                    updateSlider();
+                    scrollToSection(currentIndex);
+                });
+
+                slideItems.forEach((item, index) => {
+                    item.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        currentIndex = index;
+                        updateSlider();
+                        scrollToSection(index);
+                    });
+                });
+            }
+
+            function syncSliderWithScroll() {
+                if (!isMobile) return;
+                const sections = document.querySelectorAll('section');
+                let currentSection = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 100;
+                    if (window.scrollY >= sectionTop) {
+                        currentSection = section.getAttribute('id');
+                    }
+                });
+                slideItems.forEach((link, index) => {
+                    if (link.getAttribute('href') === `#${currentSection}` && index !== currentIndex) {
+                        currentIndex = index;
+                        updateSlider();
+                    }
+                });
+            }
+
+            window.addEventListener('resize', () => {
+                isMobile = window.innerWidth <= 768;
+                updateSlider();
+            });
+
+            window.addEventListener('scroll', syncSliderWithScroll);
+            updateSlider();
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            updateLanguage('be');
+
+            document.querySelectorAll('.lang-switcher button').forEach(button => {
+                button.addEventListener('click', () => {
+                    const lang = button.getAttribute('data-lang');
+                    updateLanguage(lang);
+                });
+            });
+
+            initSlider();
+
+            window.addEventListener('scroll', () => {
+                const parallax = document.querySelector('.parallax-bg');
+                const scrollPosition = window.scrollY;
+                parallax.style.transform = `translateY(${scrollPosition * 0.5}px)`;
+            });
+
+            const sections = document.querySelectorAll('section');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.2 });
+            sections.forEach(section => observer.observe(section));
+
+            if (window.innerWidth > 768) {
+                const navLinks = document.querySelectorAll('.desktop-nav a');
+                window.addEventListener('scroll', () => {
+                    let current = '';
+                    sections.forEach(section => {
+                        const sectionTop = section.offsetTop - 100;
+                        if (window.scrollY >= sectionTop) {
+                            current = section.getAttribute('id');
+                        }
+                    });
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${current}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>

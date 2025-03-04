@@ -1,0 +1,702 @@
+[
+    {
+      "Title": "TUGX 465, Exposure 61",
+      "Coordinates": "52.5718037814099, 24.9437597824854",
+      "Location": "Samoylavichy, Brest, Belarus",
+      "Location BY": "Самойлавічы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_61_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 465, Exposure 62",
+      "Coordinates": "52.5568244160408, 24.8947903664205",
+      "Location": "Bereza-Kartuzskaya, Brest, Belarus",
+      "Location BY": "Бяроза-Картузская, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_62_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 465, Exposure 63",
+      "Coordinates": "52.5223404724741, 24.8426708454377",
+      "Location": "Osawtsy, Brest, Belarus",
+      "Location BY": "Асаўцы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_63_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 465, Exposure 64",
+      "Coordinates": "52.4933929805637, 24.7846551546971",
+      "Location": "Kabaki, Brest, Belarus",
+      "Location BY": "Кабакі, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_64_01_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 465, Exposure 65",
+      "Coordinates": "52.4705593024925, 24.7010484240986",
+      "Location": "Brest, Belarus",
+      "Location BY": "Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_65_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 465, Exposure 66",
+      "Coordinates": "52.4518849803705, 24.6550346637044",
+      "Location": "Bakuny, Brest, Belarus",
+      "Location BY": "Бакуны, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_66_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 465, Exposure 67",
+      "Coordinates": "52.4334730608802, 24.6049524497435",
+      "Location": "Vorotno, Brest, Belarus",
+      "Location BY": "Варотна, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_67_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 465, Exposure 68",
+      "Coordinates": "52.4203449085344, 24.5691165875997",
+      "Location": "Vorotno, Brest, Belarus",
+      "Location BY": "Варотна, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_68_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 465, Exposure 69",
+      "Coordinates": "52.3949194046896, 24.5177642265785",
+      "Location": "Mukhovets, Brest, Belarus",
+      "Location BY": "Мухавец, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_69_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 465, Exposure 70",
+      "Coordinates": "52.3666735807899, 24.4650941889628",
+      "Location": "Zasimy, Brest, Belarus",
+      "Location BY": "Засімы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_70_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 465, Exposure 71",
+      "Coordinates": "52.3350473819059, 24.4037710864345",
+      "Location": "Stryye, Brest, Belarus",
+      "Location BY": "Стрые, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_71_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 465, Exposure 72",
+      "Coordinates": "52.3120641004874, 24.3544008020109",
+      "Location": "Lyaskovo, Brest, Belarus",
+      "Location BY": "Ляскава, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789651_TUGX_0465_72_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 466 SK, Exposure 2",
+      "Coordinates": "52.3916981856209, 29.3149855390633",
+      "Location": "Tsidov, Homyel', Belarus",
+      "Location BY": "Цідаў, Гомель, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789652_TUGX_0466_SK_02_01_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 466 SK, Exposure 4",
+      "Coordinates": "52.8121157762942, 29.4188831967928",
+      "Location": "Partchi, Homyel', Belarus",
+      "Location BY": "Парчы, Гомель, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789652_TUGX_0466_SK_04_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 466 SK, Exposure 5",
+      "Coordinates": "52.9258799265751, 29.6862683681434",
+      "Location": "Radusha, Homyel', Belarus",
+      "Location BY": "Радуша, Гомель, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789652_TUGX_0466_SK_05_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 466 SK, Exposure 9",
+      "Coordinates": "52.6818580281507, 29.660453916348",
+      "Location": "Ola, Homyel', Belarus",
+      "Location BY": "Ола, Гомель, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789652_TUGX_0466_SK_09_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 466 SK, Exposure 11",
+      "Coordinates": "52.6476516119385, 29.7270573348382",
+      "Location": "Shatsilki, Stantsiya, Homyel', Belarus",
+      "Location BY": "Шацілкі, Станцыя, Гомель, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789652_TUGX_0466_SK_11_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 466 SK, Exposure 13",
+      "Coordinates": "52.689627069428, 29.7629174572127",
+      "Location": "Homyel', Belarus",
+      "Location BY": "Гомель, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789652_TUGX_0466_SK_13_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 466 SK, Exposure 14",
+      "Coordinates": "52.7208701335903, 29.7201919047003",
+      "Location": "Sosnitsa, Homyel', Belarus",
+      "Location BY": "Сасніца, Гомель, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789652_TUGX_0466_SK_14_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 466 SK, Exposure 15",
+      "Coordinates": "52.8500737598838, 29.9396644963149",
+      "Location": "Homyel', Belarus",
+      "Location BY": "Гомель, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789652_TUGX_0466_SK_15_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 467 SK, Exposure 26",
+      "Coordinates": "55.330114371379, 27.7892865165151",
+      "Location": "Luchayki Pervyye, Vitsyebsk, Belarus",
+      "Location BY": "Лучайкі Первыя, Віцебск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789653_TUGX_0467_SK_26_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 467 SK, Exposure 27",
+      "Coordinates": "55.3178572778183, 27.7619919161632",
+      "Location": "Luchayki Pervyye, Vitsyebsk, Belarus",
+      "Location BY": "Лучайкі Первыя, Віцебск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789653_TUGX_0467_SK_27_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 467 SK, Exposure 28",
+      "Coordinates": "55.3075670453806, 27.7075180428513",
+      "Location": "Soriki, Vitsyebsk, Belarus",
+      "Location BY": "Сорыкі, Віцебск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789653_TUGX_0467_SK_28_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 467 SK, Exposure 29",
+      "Coordinates": "55.3255721701645, 27.6973041871699",
+      "Location": "Kapyl'shchyna, Vitsyebsk, Belarus",
+      "Location BY": "Капыльшчына, Віцебск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789653_TUGX_0467_SK_29_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 467 SK, Exposure 30",
+      "Coordinates": "55.3255721701645, 27.6973041871699",
+      "Location": "Kapyl'shchyna, Vitsyebsk, Belarus",
+      "Location BY": "Капыльшчына, Віцебск, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_175789653_TUGX_0467_SK_30_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 338A SK, Exposure 96",
+      "Coordinates": "52.8242513300856, 24.8047256504651",
+      "Location": "Ruzhanskiy Rayon, Brest, Belarus",
+      "Location BY": "Ружанскі раён, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_372843892_TUGX_0338A_SK_0096_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 338A SK, Exposure 97",
+      "Coordinates": "52.8245172538351, 24.7632884834781",
+      "Location": "Ruzhanskiy Rayon, Brest, Belarus",
+      "Location BY": "Ружанскі раён, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_372843892_TUGX_0338A_SK_0097_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 338A SK, Exposure 98",
+      "Coordinates": "52.8247687261633, 24.7218508230958",
+      "Location": "Mogylovtse, Brest, Belarus",
+      "Location BY": "Магілоўцы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_372843892_TUGX_0338A_SK_0098_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 338A SK, Exposure 99",
+      "Coordinates": "52.8250057694662, 24.6804126968287",
+      "Location": "Asoshniki, Brest, Belarus",
+      "Location BY": "Асошнікі, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_372843892_TUGX_0338A_SK_0099_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 338A SK, Exposure 100",
+      "Coordinates": "52.8252283834622, 24.6389741321898",
+      "Location": "Vil'yanov, Brest, Belarus",
+      "Location BY": "Вільянаў, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_372843892_TUGX_0338A_SK_0100_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 338A SK, Exposure 101",
+      "Coordinates": "52.8254365678872, 24.5975351566939",
+      "Location": "Vil'yanov, Brest, Belarus",
+      "Location BY": "Вільянаў, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_372843892_TUGX_0338A_SK_0101_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 338A SK, Exposure 102",
+      "Coordinates": "52.825630322494, 24.5560957978582",
+      "Location": "Kuklicze, Hrodna, Belarus",
+      "Location BY": "Куклічы, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_372843892_TUGX_0338A_SK_0102_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 338A SK, Exposure 103",
+      "Coordinates": "52.8258096470524, 24.5146560832012",
+      "Location": "Kuklicze, Hrodna, Belarus",
+      "Location BY": "Куклічы, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_372843892_TUGX_0338A_SK_0103_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 338A SK, Exposure 104",
+      "Coordinates": "52.8259745413497, 24.4732160402435",
+      "Location": "Hrodna, Belarus",
+      "Location BY": "Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_372843892_TUGX_0338A_SK_0104_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 338A SK, Exposure 105",
+      "Coordinates": "52.8264016035822, 24.428342468968",
+      "Location": "Porazawski Rayon, Hrodna, Belarus",
+      "Location BY": "Паразоўскі раён, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_372843892_TUGX_0338A_SK_0105_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 338A SK, Exposure 106",
+      "Coordinates": "52.8279205633916, 24.3921661376953",
+      "Location": "Porazawski Rayon, Hrodna, Belarus",
+      "Location BY": "Паразоўскі раён, Гродна, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_372843892_TUGX_0338A_SK_0106_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340B SK, Exposure 1",
+      "Coordinates": "52.4478930668852, 23.4259433207703",
+      "Location": "Vysokawski Rayon, Brest, Belarus",
+      "Location BY": "Высокаўскі раён, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204519_TUGX_0340B_SK_0001_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340B SK, Exposure 2",
+      "Coordinates": "52.4473866014708, 23.3730646963106",
+      "Location": "Brest, Belarus",
+      "Location BY": "Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204519_TUGX_0340B_SK_0002_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 553",
+      "Coordinates": "52.447176145632, 23.347293725608",
+      "Location": "Peschatka, Brest, Belarus",
+      "Location BY": "Пяшчатка, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0553_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 554",
+      "Coordinates": "52.4473524451908, 23.393158030273",
+      "Location": "Brest, Belarus",
+      "Location BY": "Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0554_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 555",
+      "Coordinates": "52.4475156159616, 23.4282651787562",
+      "Location": "Vysokawski Rayon, Brest, Belarus",
+      "Location BY": "Высокаўскі раён, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0555_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 556",
+      "Coordinates": "52.4476656577697, 23.4736723008946",
+      "Location": "Yasenyuvka, Brest, Belarus",
+      "Location BY": "Ясенюўка, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0556_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 557",
+      "Coordinates": "52.4476630662143, 23.5218262516301",
+      "Location": "Verkhovitse, Brest, Belarus",
+      "Location BY": "Вярховіцы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0557_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 558",
+      "Coordinates": "52.4480658508898, 23.5770757902663",
+      "Location": "Rusily, Brest, Belarus",
+      "Location BY": "Русілы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0558_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 559",
+      "Coordinates": "52.4480370078818, 23.599137655234",
+      "Location": "Rusily, Brest, Belarus",
+      "Location BY": "Русілы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0559_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 560",
+      "Coordinates": "52.4481345323735, 23.6477500083858",
+      "Location": "Ogorodniki, Brest, Belarus",
+      "Location BY": "Агароднікі, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0560_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 561",
+      "Coordinates": "52.44821892724, 23.6892671806014",
+      "Location": "Ogorodniki, Brest, Belarus",
+      "Location BY": "Агароднікі, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0561_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 562",
+      "Coordinates": "52.448290192391, 23.7337599683485",
+      "Location": "Gorodishche, Brest, Belarus",
+      "Location BY": "Гарадзішча, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0562_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 563",
+      "Coordinates": "52.4487668198628, 23.781228321911",
+      "Location": "Bielowo, Brest, Belarus",
+      "Location BY": "Белава, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0563_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 564",
+      "Coordinates": "52.4485328287968, 23.8282390111814",
+      "Location": "Klepache, Brest, Belarus",
+      "Location BY": "Кляпачы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0564_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 565",
+      "Coordinates": "52.4484252088581, 23.8704432612459",
+      "Location": "Novitskoviche, Brest, Belarus",
+      "Location BY": "Навіцковічы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0565_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 566",
+      "Coordinates": "52.4488624457287, 23.9234049854845",
+      "Location": "Lesna Prawa, Brest, Belarus",
+      "Location BY": "Лясная Правая, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0566_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 567",
+      "Coordinates": "52.4498445295315, 23.9543940805352",
+      "Location": "Dvortse, Brest, Belarus",
+      "Location BY": "Дворцы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0567_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 568",
+      "Coordinates": "52.4490000412665, 23.9753123853276",
+      "Location": "Dvortse, Brest, Belarus",
+      "Location BY": "Дворцы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0568_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 569",
+      "Coordinates": "52.4484214117758, 23.9937129454911",
+      "Location": "Dvortse, Brest, Belarus",
+      "Location BY": "Дворцы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0569_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 570",
+      "Coordinates": "52.4493641164335, 24.024701970106",
+      "Location": "Sokol'niki, Brest, Belarus",
+      "Location BY": "Сакольнікі, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0570_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 571",
+      "Coordinates": "52.4476432420483, 24.0483666897282",
+      "Location": "Sokol'niki, Brest, Belarus",
+      "Location BY": "Сакольнікі, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0571_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 574",
+      "Coordinates": "52.4492372207053, 24.1079161263457",
+      "Location": "Brest, Belarus",
+      "Location BY": "Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0574_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 575",
+      "Coordinates": "52.4488588061686, 24.1368446178429",
+      "Location": "Brody, Brest, Belarus",
+      "Location BY": "Броды, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0575_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 576",
+      "Coordinates": "52.4515360986773, 24.1849989831962",
+      "Location": "Malyy Zosin, Brest, Belarus",
+      "Location BY": "Малы Зосін, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0576_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 577",
+      "Coordinates": "52.4465280690757, 24.2036273887853",
+      "Location": "Bol'shoy Zosin, Brest, Belarus",
+      "Location BY": "Вялікі Зосін, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0577_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 578",
+      "Coordinates": "52.4493187455845, 24.2607077058867",
+      "Location": "Brest, Belarus",
+      "Location BY": "Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0578_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 579",
+      "Coordinates": "52.4465163137545, 24.3177877625443",
+      "Location": "Brest, Belarus",
+      "Location BY": "Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0579_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 580",
+      "Coordinates": "52.4543022780582, 24.3588457997403",
+      "Location": "Zosimy, Brest, Belarus",
+      "Location BY": "Зосімы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0580_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 581",
+      "Coordinates": "52.4507764673496, 24.4092876882248",
+      "Location": "Priluchino, Ostanovochnyy Punkt, Brest, Belarus",
+      "Location BY": "Прылучына, Астанавачны пункт, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0581_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 583",
+      "Coordinates": "52.4450797168136, 24.4790425120313",
+      "Location": "Linowo, Brest, Belarus",
+      "Location BY": "Лінова, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0583_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 584",
+      "Coordinates": "52.4477917186857, 24.5377230883327",
+      "Location": "Oranczyce, Brest, Belarus",
+      "Location BY": "Аранчыцы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0584_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 585",
+      "Coordinates": "52.4489560017841, 24.5691663106597",
+      "Location": "Vorotno, Brest, Belarus",
+      "Location BY": "Варотна, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0585_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 586",
+      "Coordinates": "52.4499676319124, 24.6136553883147",
+      "Location": "Vorotno, Brest, Belarus",
+      "Location BY": "Варотна, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0586_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 587",
+      "Coordinates": "52.4495711905123, 24.6508197951839",
+      "Location": "Bakuny, Brest, Belarus",
+      "Location BY": "Бакуны, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0587_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340A SK, Exposure 588",
+      "Coordinates": "52.4519514486325, 24.7017166401611",
+      "Location": "Podkraiche, Brest, Belarus",
+      "Location BY": "Падкраічы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204521_TUGX_0340A_SK_0588_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 470",
+      "Coordinates": "52.4458035605937, 24.5502662693616",
+      "Location": "Oranczyce, Brest, Belarus",
+      "Location BY": "Аранчыцы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0470_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 471",
+      "Coordinates": "52.4459599083898, 24.5836631704066",
+      "Location": "Vorotno, Brest, Belarus",
+      "Location BY": "Варотна, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0471_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 472",
+      "Coordinates": "52.4469385041031, 24.6257586529123",
+      "Location": "Bakuny, Brest, Belarus",
+      "Location BY": "Бакуны, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0472_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 473",
+      "Coordinates": "52.4504132211763, 24.6660241383445",
+      "Location": "Bakuny, Brest, Belarus",
+      "Location BY": "Бакуны, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0473_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 474",
+      "Coordinates": "52.4559650479217, 24.7056039956033",
+      "Location": "Podkraiche, Brest, Belarus",
+      "Location BY": "Падкраічы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0474_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 475",
+      "Coordinates": "52.4556438442501, 24.7543401277964",
+      "Location": "Voshchanka, Brest, Belarus",
+      "Location BY": "Воўшчанка, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0475_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 476",
+      "Coordinates": "52.4558657601318, 24.7621073690719",
+      "Location": "Voshchanka, Brest, Belarus",
+      "Location BY": "Воўшчанка, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0476_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 477",
+      "Coordinates": "52.4548176176205, 24.8083276971606",
+      "Location": "Voshchanka, Brest, Belarus",
+      "Location BY": "Воўшчанка, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0477_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 478",
+      "Coordinates": "52.4547310308609, 24.8547778243711",
+      "Location": "Golitse, Brest, Belarus",
+      "Location BY": "Галіцы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0478_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 479",
+      "Coordinates": "52.4564428404334, 24.8884114474981",
+      "Location": "Siehniewicze, Brest, Belarus",
+      "Location BY": "Сегневічы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0479_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 480",
+      "Coordinates": "52.4581398037664, 24.9211303956731",
+      "Location": "Podose, Brest, Belarus",
+      "Location BY": "Падоссе, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0480_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 481",
+      "Coordinates": "52.4574510068295, 24.9792560536873",
+      "Location": "Dyaglets, Brest, Belarus",
+      "Location BY": "Дзягляцы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0481_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 482",
+      "Coordinates": "52.4592578376386, 25.0225051920704",
+      "Location": "Peshchanka, Brest, Belarus",
+      "Location BY": "Пяшчанка, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0482_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 483",
+      "Coordinates": "52.458260559793, 25.0682728040042",
+      "Location": "Mateyevichi, Brest, Belarus",
+      "Location BY": "Мацеевічы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0483_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 484",
+      "Coordinates": "52.4578063621394, 25.0982483005447",
+      "Location": "Peresudoviche, Brest, Belarus",
+      "Location BY": "Перасудавічы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0484_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 485",
+      "Coordinates": "52.4573373688908, 25.1431018440519",
+      "Location": "Nivy, Brest, Belarus",
+      "Location BY": "Нівы, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0485_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 486",
+      "Coordinates": "52.4576903973869, 25.185209480605",
+      "Location": "Byelaazyorsk, Brest, Belarus",
+      "Location BY": "Белаазёрск, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0486_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 487",
+      "Coordinates": "52.4555181656285, 25.2440261451342",
+      "Location": "Khryssa, Brest, Belarus",
+      "Location BY": "Хрыса, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0487_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 488",
+      "Coordinates": "52.4557021623259, 25.2815574439696",
+      "Location": "Gorbovo, Brest, Belarus",
+      "Location BY": "Гарбова, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0488_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 489",
+      "Coordinates": "52.4529423207966, 25.3275579579814",
+      "Location": "Sporavo, Brest, Belarus",
+      "Location BY": "Спарова, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0489_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 490",
+      "Coordinates": "52.453933645965, 25.346322118838",
+      "Location": "Sporavo, Brest, Belarus",
+      "Location BY": "Спарова, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0490_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 491",
+      "Coordinates": "52.455468062429, 25.3710377454205",
+      "Location": "Dolgiy, Kanal, Brest, Belarus",
+      "Location BY": "Доўгі, Канал, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0491_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 492",
+      "Coordinates": "52.4547560506083, 25.4186420689566",
+      "Location": "Dolgiy, Kanal, Brest, Belarus",
+      "Location BY": "Доўгі, Канал, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0492_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 493",
+      "Coordinates": "52.4522159475236, 25.4792931458669",
+      "Location": "Kazënnaya Kanava, Brest, Belarus",
+      "Location BY": "Казённая Канава, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0493_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 494",
+      "Coordinates": "52.4503583834373, 25.5037813602809",
+      "Location": "Kazënnaya Kanava, Brest, Belarus",
+      "Location BY": "Казённая Канава, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0494_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 494A",
+      "Coordinates": "52.45082046441, 25.5257034406531",
+      "Location": "Brest, Belarus",
+      "Location BY": "Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0494a_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 495",
+      "Coordinates": "52.4539260108145, 25.5694687376292",
+      "Location": "Obrovo, Brest, Belarus",
+      "Location BY": "Аброва, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0495_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 496",
+      "Coordinates": "52.4528758361634, 25.6157015562704",
+      "Location": "Hoszcza, Brest, Belarus",
+      "Location BY": "Гошча, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0496_01.jpg/full/1000,/0/default.jpg"
+    },
+    {
+      "Title": "TUGX 340C SK, Exposure 497",
+      "Coordinates": "52.4529267206291, 25.6431664414351",
+      "Location": "Hoszcza, Brest, Belarus",
+      "Location BY": "Гошча, Брэст, Беларусь",
+      "Photo URL": "https://catalog.archives.gov/iiif/3/lz%2Fcartographic%2Frg-373%2F306065%2FBatch0016%2FRG373_373204523_TUGX_0340C_SK_0497_01.jpg/full/1000,/0/default.jpg"
+    }
+  ]
