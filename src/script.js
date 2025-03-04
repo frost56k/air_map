@@ -153,20 +153,10 @@ function closeModal() {
     const modalImg = document.getElementById('modal-image');
     modal.style.display = 'none';
     modalImg.style.transform = 'translate(0px, 0px) scale(1)'; // Сбрасываем трансформацию
-    scale = 1; // Сбрасываем масштаб
-    currentX = 0;
-    currentY = 0;
-}
-
-// Функция для закрытия модального окна
-function closeModal() {
-    const modal = document.getElementById('image-modal');
-    const modalImg = document.getElementById('modal-image');
-    modal.style.display = 'none';
-    modalImg.style.transform = 'translate(0px, 0px) scale(1)'; // Сбрасываем трансформацию
-    scale = 1; // Сбрасываем масштаб
-    currentX = 0;
-    currentY = 0;
+    // Удаляем масштаб и координаты из глобальной области (если они были объявлены глобально)
+    if (typeof scale !== 'undefined') scale = 1;
+    if (typeof currentX !== 'undefined') currentX = 0;
+    if (typeof currentY !== 'undefined') currentY = 0;
 }
 
 // Функция для управления мобильным меню и кнопкой "О сайте"
@@ -199,20 +189,20 @@ function setupMobileMenu() {
     }
 
     mobileMenuBtn.addEventListener('click', () => {
-        sidebar.classList.add('active');
+        sidebar.classList.add('open'); // Заменяем 'active' на 'open'
         mobileMenuBtn.style.display = 'none';
         buttonContainer.style.display = 'none'; // Скрываем кнопки при открытии sidebar
     });
 
     closeMenu.addEventListener('click', () => {
-        sidebar.classList.remove('active');
+        sidebar.classList.remove('open'); // Заменяем 'active' на 'open'
         mobileMenuBtn.style.display = 'block';
         buttonContainer.style.display = 'flex'; // Показываем кнопки при закрытии sidebar
     });
 
     aboutBtn.addEventListener('click', () => {
-        if (window.innerWidth <= 768 && sidebar.classList.contains('active')) {
-            sidebar.classList.remove('active');
+        if (window.innerWidth <= 768 && sidebar.classList.contains('open')) { // Заменяем 'active' на 'open'
+            sidebar.classList.remove('open'); // Заменяем 'active' на 'open'
             mobileMenuBtn.style.display = 'block';
             buttonContainer.style.display = 'flex'; // Показываем кнопки при закрытии через about-btn
         }
@@ -223,7 +213,7 @@ function setupMobileMenu() {
             !sidebar.contains(e.target) &&
             e.target !== mobileMenuBtn &&
             e.target !== aboutBtn) {
-            sidebar.classList.remove('active');
+            sidebar.classList.remove('open'); // Заменяем 'active' на 'open'
             mobileMenuBtn.style.display = 'block';
             buttonContainer.style.display = 'flex'; // Показываем кнопки при клике вне sidebar
         }
@@ -231,11 +221,11 @@ function setupMobileMenu() {
 
     window.addEventListener('resize', () => {
         if (window.innerWidth > 768) {
-            sidebar.classList.remove('active');
+            sidebar.classList.remove('open'); // Заменяем 'active' на 'open'
             mobileMenuBtn.style.display = 'none';
             buttonContainer.style.display = 'flex'; // Показываем кнопки на десктопе
         } else {
-            if (!sidebar.classList.contains('active')) {
+            if (!sidebar.classList.contains('open')) { // Заменяем 'active' на 'open'
                 sidebar.style.display = 'block';
                 buttonContainer.style.display = 'flex'; // Показываем кнопки, если sidebar закрыт
             }
@@ -246,7 +236,7 @@ function setupMobileMenu() {
 
     // Инициализация при загрузке
     if (window.innerWidth > 768) {
-        sidebar.classList.remove('active');
+        sidebar.classList.remove('open'); // Заменяем 'active' на 'open'
         mobileMenuBtn.style.display = 'none';
         buttonContainer.style.display = 'flex'; // Показываем кнопки на десктопе
     } else {
@@ -357,50 +347,49 @@ function initMapAndData() {
             }
 
             // Создание маркеров
-// Создание маркеров
-function createMarkers(data) {
-    allMarkers = [];
-    data.forEach(place => {
-        const coords = parseCoordinates(place); // Получаем координаты
-        if (!coords) {
-            console.error(`Invalid coordinates for place: ${place.Title}`);
-            return; // Пропускаем это место, если координаты некорректны
-        }
+            function createMarkers(data) {
+                allMarkers = [];
+                data.forEach(place => {
+                    const coords = parseCoordinates(place); // Получаем координаты
+                    if (!coords) {
+                        console.error(`Invalid coordinates for place: ${place.Title}`);
+                        return; // Пропускаем это место, если координаты некорректны
+                    }
 
-        const marker = L.marker([coords.lat, coords.lon])
-            .bindPopup(`
-                <div class="popup-container">
-                    <div class="popup-header">
-                        <b>${place.Title}</b>
-                    </div>
-                    <div class="popup-content">
-                        <div class="popup-info">
-                            <div class="popup-location">
-                                <span>${place.Location}</span>
-                                <span>${place.LocationBY}</span>
+                    const marker = L.marker([coords.lat, coords.lon])
+                        .bindPopup(`
+                            <div class="popup-container">
+                                <div class="popup-header">
+                                    <b>${place.Title}</b>
+                                </div>
+                                <div class="popup-content">
+                                    <div class="popup-info">
+                                        <div class="popup-location">
+                                            <span>${place.Location}</span>
+                                            <span>${place.LocationBY}</span>
+                                        </div>
+                                        <div class="popup-coordinates">
+                                            <span>${coords.coordString}</span>
+                                        </div>
+                                    </div>
+                                    <div class="popup-image-container">
+                                        <img src="${place['Photo Path']}" 
+                                             class="popup-image" 
+                                             onerror="this.style.display='none'" 
+                                             onclick="openModal('${place['Photo Path']}')">
+                                        <button class="popup-image-button" onclick="openModal('${place['Photo Path']}')">
+                                            <i class="fas fa-expand"></i>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="popup-coordinates">
-                                <span>${coords.coordString}</span>
-                            </div>
-                        </div>
-                        <div class="popup-image-container">
-                            <img src="${place['Photo Path']}" 
-                                 class="popup-image" 
-                                 onerror="this.style.display='none'" 
-                                 onclick="openModal('${place['Photo Path']}')">
-                            <button class="popup-image-button" onclick="openModal('${place['Photo Path']}')">
-                                <i class="fas fa-expand"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            `, {
-                autoPan: false,
-                className: 'custom-popup'
-            });
-        allMarkers.push(marker);
-    });
-}
+                        `, {
+                            autoPan: false,
+                            className: 'custom-popup'
+                        });
+                    allMarkers.push(marker);
+                });
+            }
 
             // Обновление маркеров
             function updateMarkers(data) {
@@ -476,8 +465,8 @@ function createMarkers(data) {
                     const placeInfo = placeDiv.querySelector('.place-info');
                     placeInfo.addEventListener('click', () => {
                         if (window.innerWidth <= 768) {
-                            sidebar.classList.remove('active');
-                            document.getElementById('mobile-menu-btn').style.display = 'block';
+                            sidebar.classList.remove('open'); // Заменяем 'active' на 'open'
+                            document.getElementById('mobile-menubtn').style.display = 'block';
                         }
 
                         const targetMarker = allMarkers.find(marker => {
