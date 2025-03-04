@@ -1,0 +1,4 @@
+__pycache__/
+*.json
+.DS_Store
+venv/
