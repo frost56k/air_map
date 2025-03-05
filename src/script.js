@@ -28,40 +28,42 @@ function openModal(imageSrc) {
 
     let isDragging = false;
     let startX, startY, currentX = 0, currentY = 0;
-    let scale = 1; // Текущий масштаб
-    let initialDistance = null; // Для pinch-to-zoom
+    let scale = 1;
+    let initialDistance = null;
 
-    // Обработчик клика для зумирования
+    modalImg.onload = () => updateTransform();
+
+    // Управление transition и курсором
+    function startDragging() {
+        modalImg.style.transition = 'none';
+        modalImg.style.cursor = 'grabbing';
+    }
+
+    function stopDragging() {
+        modalImg.style.transition = 'transform 0.25s ease'; // Включаем обратно для масштабирования
+        modalImg.style.cursor = scale > 1 ? 'grab' : 'zoom-in';
+    }
+
     modalImg.addEventListener('click', (e) => {
-        if (scale === 1) {
-            scale = 2; // Увеличиваем масштаб
-        } else {
-            scale = 1; // Сбрасываем масштаб
-            currentX = 0;
-            currentY = 0;
-        }
+        scale = scale === 1 ? 2 : 1;
+        currentX = currentY = 0; // Сбрасываем позицию при клике
         updateTransform();
     });
 
-    // Обработчик колеса мыши для зумирования
     modalImg.addEventListener('wheel', (e) => {
         e.preventDefault();
-        if (e.deltaY < 0) {
-            scale += 0.1; // Увеличиваем масштаб
-        } else {
-            scale -= 0.1; // Уменьшаем масштаб
-        }
-        scale = Math.max(0.5, Math.min(scale, 3)); // Ограничиваем масштаб
+        scale += e.deltaY < 0 ? 0.1 : -0.1;
+        scale = Math.max(0.5, Math.min(scale, 3));
         updateTransform();
     });
 
-    // Обработчики для мыши
     modalImg.addEventListener('mousedown', (e) => {
         if (scale > 1) {
             isDragging = true;
             startX = e.pageX - currentX;
             startY = e.pageY - currentY;
-            e.preventDefault(); // Предотвращаем выделение текста
+            startDragging();
+            e.preventDefault();
         }
     });
 
@@ -70,32 +72,42 @@ function openModal(imageSrc) {
         e.preventDefault();
         currentX = e.pageX - startX;
         currentY = e.pageY - startY;
-        applyBoundaries(); // Применяем границы перемещения
         updateTransform();
     });
 
     modalImg.addEventListener('mouseup', () => {
         isDragging = false;
+        stopDragging();
     });
 
     modalImg.addEventListener('mouseleave', () => {
         isDragging = false;
+        stopDragging();
     });
 
-    // Обработчики для сенсорных устройств (pinch-to-zoom)
     modalImg.addEventListener('touchstart', (e) => {
-        if (e.touches.length === 2) {
+        if (e.touches.length === 1) {
+            isDragging = true;
+            startX = e.touches[0].pageX - currentX;
+            startY = e.touches[0].pageY - currentY;
+            startDragging();
+        } else if (e.touches.length === 2) {
             initialDistance = getDistance(e.touches[0], e.touches[1]);
         }
     });
 
     modalImg.addEventListener('touchmove', (e) => {
-        if (e.touches.length === 2) {
+        if (e.touches.length === 1 && isDragging) {
+            e.preventDefault();
+            currentX = e.touches[0].pageX - startX;
+            currentY = e.touches[0].pageY - startY;
+            updateTransform();
+        } else if (e.touches.length === 2) {
             e.preventDefault();
             const newDistance = getDistance(e.touches[0], e.touches[1]);
             if (initialDistance !== null) {
-                scale *= newDistance / initialDistance; // Масштабируем
-                scale = Math.max(0.5, Math.min(scale, 3)); // Ограничиваем масштаб
+                scale *= newDistance / initialDistance;
+                scale = Math.max(0.5, Math.min(scale, 3));
                 initialDistance = newDistance;
                 updateTransform();
             }
@@ -103,47 +115,23 @@ function openModal(imageSrc) {
     });
 
     modalImg.addEventListener('touchend', () => {
+        isDragging = false;
         initialDistance = null;
+        stopDragging();
     });
 
-    // Функция для обновления трансформации изображения
     function updateTransform() {
         modalImg.style.transform = `translate(${currentX}px, ${currentY}px) scale(${scale})`;
+        // Курсор обновляется только при остановке перетаскивания через stopDragging
     }
 
-    // Функция для вычисления расстояния между двумя точками
     function getDistance(touch1, touch2) {
-        return Math.hypot(
-            touch2.pageX - touch1.pageX,
-            touch2.pageY - touch1.pageY
-        );
+        return Math.hypot(touch2.pageX - touch1.pageX, touch2.pageY - touch1.pageY);
     }
 
-    // Функция для ограничения перемещения
-    function applyBoundaries() {
-        const imgWidth = modalImg.offsetWidth * scale;
-        const imgHeight = modalImg.offsetHeight * scale;
-        const containerWidth = modal.offsetWidth;
-        const containerHeight = modal.offsetHeight;
-
-        // Максимальные значения для перемещения
-        const maxX = Math.max((imgWidth - containerWidth) / 2, 0);
-        const maxY = Math.max((imgHeight - containerHeight) / 2, 0);
-
-        // Ограничиваем перемещение
-        currentX = Math.min(Math.max(currentX, -maxX), maxX);
-        currentY = Math.min(Math.max(currentY, -maxY), maxY);
-    }
-
-    // Закрытие модального окна
-    document.getElementById('close-modal').addEventListener('click', () => {
-        closeModal();
-    });
-
+    document.getElementById('close-modal').addEventListener('click', closeModal);
     window.addEventListener('click', (event) => {
-        if (event.target === modal) {
-            closeModal();
-        }
+        if (event.target === modal) closeModal();
     });
 }
 

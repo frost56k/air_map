@@ -192,7 +192,6 @@ body {
 .modal-content {
     max-width: 90%; /* Ограничиваем ширину */
     max-height: 80vh; /* Ограничиваем высоту */
-    transition: transform 0.25s ease;
     cursor: zoom-in;
     display: block;
 }
@@ -320,18 +319,8 @@ body {
 #modal-image {
     max-width: 90%;
     max-height: 80vh;
-    transition: transform 0.25s ease;
     cursor: zoom-in;
     transform-origin: center center; /* Точка масштабирования в центре */
-}
-
-#modal-image.zoomed {
-    cursor: grab;
-    transform: scale(2); /* Увеличиваем изображение */
-}
-
-#modal-image.zoomed:active {
-    cursor: grabbing;
 }
 
 #close-modal {
