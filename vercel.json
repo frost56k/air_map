@@ -2,23 +2,5 @@
   "rewrites": [
     { "source": "/about", "destination": "/src/about.html" },
     { "source": "/(.*)", "destination": "/src/$1" }
-  ],
-  "routes": [
-    {
-      "src": "/site.webmanifest",
-      "dest": "/public/site.webmanifest"
-    },
-    {
-      "src": "/favicon-(.*).png",
-      "dest": "/public/favicon-$1.png"
-    },
-    {
-      "src": "/android-chrome-(.*).png",
-      "dest": "/public/android-chrome-$1.png"
-    },
-    {
-      "src": "/apple-touch-icon.png",
-      "dest": "/public/apple-touch-icon.png"
-    }
   ]
 }
