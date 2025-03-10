@@ -20,131 +20,73 @@ function lazyLoadImages() {
 }
 
 // Функция для открытия модального окна с изображением
+// Функция для открытия модального окна с изображением
 function openModal(imageSrc) {
     const modal = document.getElementById('image-modal');
-    const modalImg = document.getElementById('modal-image');
     modal.style.display = 'block';
-    modalImg.src = imageSrc;
+    modalImage.src = imageSrc;
 
-    let isDragging = false;
-    let startX, startY, currentX = 0, currentY = 0;
-    let scale = 1;
-    let initialDistance = null;
+    // Закрытие модального окна при нажатии на ESC
+    document.addEventListener('keydown', handleEscapeKey);
 
-    modalImg.onload = () => updateTransform();
-
-    // Управление transition и курсором
-    function startDragging() {
-        modalImg.style.transition = 'none';
-        modalImg.style.cursor = 'grabbing';
-    }
-
-    function stopDragging() {
-        modalImg.style.transition = 'transform 0.25s ease'; // Включаем обратно для масштабирования
-        modalImg.style.cursor = scale > 1 ? 'grab' : 'zoom-in';
-    }
-
-    modalImg.addEventListener('click', (e) => {
-        scale = scale === 1 ? 2 : 1;
-        currentX = currentY = 0; // Сбрасываем позицию при клике
-        updateTransform();
-    });
-
-    modalImg.addEventListener('wheel', (e) => {
-        e.preventDefault();
-        scale += e.deltaY < 0 ? 0.1 : -0.1;
-        scale = Math.max(0.5, Math.min(scale, 3));
-        updateTransform();
-    });
-
-    modalImg.addEventListener('mousedown', (e) => {
-        if (scale > 1) {
-            isDragging = true;
-            startX = e.pageX - currentX;
-            startY = e.pageY - currentY;
-            startDragging();
-            e.preventDefault();
-        }
-    });
-
-    modalImg.addEventListener('mousemove', (e) => {
-        if (!isDragging) return;
-        e.preventDefault();
-        currentX = e.pageX - startX;
-        currentY = e.pageY - startY;
-        updateTransform();
-    });
-
-    modalImg.addEventListener('mouseup', () => {
-        isDragging = false;
-        stopDragging();
-    });
-
-    modalImg.addEventListener('mouseleave', () => {
-        isDragging = false;
-        stopDragging();
-    });
-
-    modalImg.addEventListener('touchstart', (e) => {
-        if (e.touches.length === 1) {
-            isDragging = true;
-            startX = e.touches[0].pageX - currentX;
-            startY = e.touches[0].pageY - currentY;
-            startDragging();
-        } else if (e.touches.length === 2) {
-            initialDistance = getDistance(e.touches[0], e.touches[1]);
-        }
-    });
-
-    modalImg.addEventListener('touchmove', (e) => {
-        if (e.touches.length === 1 && isDragging) {
-            e.preventDefault();
-            currentX = e.touches[0].pageX - startX;
-            currentY = e.touches[0].pageY - startY;
-            updateTransform();
-        } else if (e.touches.length === 2) {
-            e.preventDefault();
-            const newDistance = getDistance(e.touches[0], e.touches[1]);
-            if (initialDistance !== null) {
-                scale *= newDistance / initialDistance;
-                scale = Math.max(0.5, Math.min(scale, 3));
-                initialDistance = newDistance;
-                updateTransform();
-            }
-        }
-    });
-
-    modalImg.addEventListener('touchend', () => {
-        isDragging = false;
-        initialDistance = null;
-        stopDragging();
-    });
-
-    function updateTransform() {
-        modalImg.style.transform = `translate(${currentX}px, ${currentY}px) scale(${scale})`;
-        // Курсор обновляется только при остановке перетаскивания через stopDragging
-    }
-
-    function getDistance(touch1, touch2) {
-        return Math.hypot(touch2.pageX - touch1.pageX, touch2.pageY - touch1.pageY);
-    }
-
-    document.getElementById('close-modal').addEventListener('click', closeModal);
-    window.addEventListener('click', (event) => {
-        if (event.target === modal) closeModal();
-    });
+    // Закрытие модального окна при клике вне изображения
+    modal.addEventListener('click', handleOutsideClick);
 }
+
+// Функция для закрытия модального окна
+function closeModal() {
+    const modal = document.getElementById('image-modal');
+    modal.style.display = 'none';
+
+    // Очищаем обработчики событий
+    document.removeEventListener('keydown', handleEscapeKey);
+    modal.removeEventListener('click', handleOutsideClick);
+
+    // Сбрасываем состояние лупы
+    magnifier.style.display = 'none';
+    magnifierActive = false;
+}
+
+// Отдельные обработчики событий
+function handleEscapeKey(e) {
+    if (e.key === 'Escape') {
+        closeModal();
+    }
+}
+
+function handleOutsideClick(e) {
+    const modal = document.getElementById('image-modal');
+    if (e.target === modal) {
+        closeModal();
+    }
+}
+
+// Инициализация приложения
+document.addEventListener('DOMContentLoaded', () => {
+    // Добавляем обработчики для кнопок "Открыть фото"
+    document.querySelectorAll('.place-image').forEach(img => {
+        img.addEventListener('click', () => {
+            openModal(img.dataset.src || img.src);
+        });
+    });
+
+    // Добавляем обработчики для кнопок внутри popup
+    document.querySelectorAll('.popup-image-button').forEach(button => {
+        button.addEventListener('click', () => {
+            const imgSrc = button.closest('.popup-image-container').querySelector('img').src;
+            openModal(imgSrc);
+        });
+    });
+});
 
 // Функция для закрытия модального окна
 function closeModal() {
     const modal = document.getElementById('image-modal');
     const modalImg = document.getElementById('modal-image');
     modal.style.display = 'none';
-    modalImg.style.transform = 'translate(0px, 0px) scale(1)'; // Сбрасываем трансформацию
-    // Удаляем масштаб и координаты из глобальной области (если они были объявлены глобально)
-    if (typeof scale !== 'undefined') scale = 1;
-    if (typeof currentX !== 'undefined') currentX = 0;
-    if (typeof currentY !== 'undefined') currentY = 0;
+    scale = 1;
+    currentX = 0;
+    currentY = 0;
 }
 
 // Функция для управления мобильным меню и кнопкой "О сайте"
@@ -234,6 +176,98 @@ function setupMobileMenu() {
     }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    const modalImage = document.getElementById('modal-image');
+    let scale = 2;
+    let minScale = 1;
+    let maxScale = window.innerWidth <= 768 ? 14 : 10;
+    let currentX = 0;
+    let currentY = 0;
+    let isDragging = false;
+    let startX, startY;
+
+    // Функция для управления зумом через колесо прокрутки
+    modalImage.addEventListener('wheel', (event) => {
+        event.preventDefault();
+        let delta = event.deltaY > 0 ? -0.1 : 0.1;
+        let newScale = Math.min(maxScale, Math.max(minScale, scale + delta));
+
+        if (newScale !== scale) {
+            scale = newScale;
+            updateTransform();
+        }
+    });
+
+    // Функция для начала перетаскивания (мышь)
+    modalImage.addEventListener('mousedown', (event) => {
+        if (scale > 1) {
+            isDragging = true;
+            startX = event.clientX - currentX;
+            startY = event.clientY - currentY;
+            modalImage.style.cursor = 'grabbing';
+        }
+    });
+
+    // Функция для перемещения (мышь)
+    document.addEventListener('mousemove', (event) => {
+        if (!isDragging) return;
+        currentX = event.clientX - startX;
+        currentY = event.clientY - startY;
+        updateTransform();
+    });
+
+    // Функция для завершения перетаскивания (мышь)
+    document.addEventListener('mouseup', () => {
+        isDragging = false;
+        modalImage.style.cursor = scale > 1 ? 'grab' : 'default';
+    });
+
+    // Функции для мобильных устройств (перетаскивание)
+    let touchStartX = 0, touchStartY = 0;
+    modalImage.addEventListener('touchstart', (event) => {
+        if (scale > 1) {
+            isDragging = true;
+            const touch = event.touches[0];
+            touchStartX = touch.clientX - currentX;
+            touchStartY = touch.clientY - currentY;
+        }
+    });
+
+    modalImage.addEventListener('touchmove', (event) => {
+        if (!isDragging || event.touches.length !== 1) return;
+        event.preventDefault();
+        const touch = event.touches[0];
+        currentX = touch.clientX - touchStartX;
+        currentY = touch.clientY - touchStartY;
+        updateTransform();
+    });
+
+    modalImage.addEventListener('touchend', () => {
+        isDragging = false;
+    });
+
+    // Ограничение перемещения изображения
+    function updateTransform() {
+        const maxX = (scale - 1) * modalImage.clientWidth / 2;
+        const maxY = (scale - 1) * modalImage.clientHeight / 2;
+        currentX = Math.min(maxX, Math.max(-maxX, currentX));
+        currentY = Math.min(maxY, Math.max(-maxY, currentY));
+        modalImage.style.transform = `scale(${scale}) translate(${currentX}px, ${currentY}px)`;
+    }
+
+    // Сброс зума и позиции при закрытии модального окна
+    function closeModal() {
+        const modal = document.getElementById('image-modal');
+        modal.style.display = 'none';
+        scale = window.innerWidth <= 768 ? 2 : 1;
+        currentX = 0;
+        currentY = 0;
+        updateTransform();
+    }
+
+    document.getElementById('close-modal').addEventListener('click', closeModal);
+});
+
 // Основная функция для загрузки данных и инициализации карты
 function initMapAndData() {
     fetch('place_database.json')
@@ -321,14 +355,14 @@ function initMapAndData() {
             // Парсинг координат
             function parseCoordinates(place) {
                 let lat, lon, coordString;
-                if (Array.isArray(place.Coordinates)) {
-                    [lat, lon] = place.Coordinates;
-                    coordString = place.Coordinates.join(', ');
-                } else if (typeof place.Coordinates === 'string') {
-                    [lat, lon] = place.Coordinates.split(',').map(coord => parseFloat(coord.trim()));
-                    coordString = place.Coordinates;
+                if (Array.isArray(place.coordinates)) {
+                    [lat, lon] = place.coordinates;
+                    coordString = place.coordinates.join(', ');
+                } else if (typeof place.coordinates === 'string') {
+                    [lat, lon] = place.coordinates.split(',').map(coord => parseFloat(coord.trim()));
+                    coordString = place.coordinates;
                 } else {
-                    console.error(`Invalid Coordinates format for ${place.Title}:`, place.Coordinates);
+                    console.error(`Invalid Coordinates format for ${place.title}:`, place.coordinates);
                     return null;
                 }
                 return { lat, lon, coordString };
@@ -338,34 +372,36 @@ function initMapAndData() {
             function createMarkers(data) {
                 allMarkers = [];
                 data.forEach(place => {
-                    const coords = parseCoordinates(place); // Получаем координаты
+                    const coords = parseCoordinates(place);
                     if (!coords) {
-                        console.error(`Invalid coordinates for place: ${place.Title}`);
-                        return; // Пропускаем это место, если координаты некорректны
+                        console.error(`Invalid coordinates for place: ${place.title}`);
+                        return; // Пропускаем место с некорректными координатами
                     }
-
                     const marker = L.marker([coords.lat, coords.lon])
                         .bindPopup(`
                             <div class="popup-container">
                                 <div class="popup-header">
-                                    <b>${place.Title}</b>
+                                    <b>${place.title}</b>
                                 </div>
                                 <div class="popup-content">
                                     <div class="popup-info">
                                         <div class="popup-location">
-                                            <span>${place.Location}</span>
-                                            <span>${place.LocationBY}</span>
+                                            <span>${place.location}</span>
+                                            <span>${place.locationBY}</span>
+                                        </div>
+                                        <div class="date-info">
+                                        <span>${place.produced_date}</span>
                                         </div>
                                         <div class="popup-coordinates">
                                             <span>${coords.coordString}</span>
                                         </div>
                                     </div>
                                     <div class="popup-image-container">
-                                        <img src="${place['Photo Path']}" 
+                                        <img src="${place['thumbnail']}" 
                                              class="popup-image" 
                                              onerror="this.style.display='none'" 
-                                             onclick="openModal('${place['Photo Path']}')">
-                                        <button class="popup-image-button" onclick="openModal('${place['Photo Path']}')">
+                                             onclick="openModal('${place['photo_url']}')">
+                                        <button class="popup-image-button" onclick="openModal('${place['photo_url']}')">
                                             <i class="fas fa-expand"></i>
                                         </button>
                                     </div>
@@ -382,24 +418,20 @@ function initMapAndData() {
             // Обновление маркеров
             function updateMarkers(data) {
                 const currentBounds = map.getBounds().pad(0.1);
-                if (lastBounds && currentBounds.contains(lastBounds) && lastBounds.contains(currentBounds)) {
+                if (lastBounds && currentBounds.equals(lastBounds)) {
                     console.log('Bounds unchanged, skipping marker update');
                     return;
                 }
-
                 markersCluster.clearLayers();
                 createMarkers(data);
-
                 const zoomLevel = map.getZoom();
                 const bounds = map.getBounds().pad(0.1);
                 const dynamicMaxClusters = Math.min(maxClusters + (zoomLevel * 5), allMarkers.length);
                 const visibleMarkers = allMarkers.filter(marker => bounds.contains(marker.getLatLng()));
                 const limitedMarkers = visibleMarkers.slice(0, dynamicMaxClusters);
-
                 markersCluster.addLayers(limitedMarkers);
                 map.addLayer(markersCluster);
-
-                lastBounds = currentBounds;
+                lastBounds = currentBounds; // Обновляем lastBounds
             }
 
             map.on('moveend zoomend', debounce(() => {
@@ -415,62 +447,56 @@ function initMapAndData() {
                 for (let i = start; i < end; i++) {
                     const place = data[i];
                     let lat, lon, coordString;
-                    if (Array.isArray(place.Coordinates)) {
-                        [lat, lon] = place.Coordinates;
-                        coordString = place.Coordinates.join(', ');
-                    } else if (typeof place.Coordinates === 'string') {
-                        [lat, lon] = place.Coordinates.split(',').map(coord => parseFloat(coord.trim()));
-                        coordString = place.Coordinates;
+                    if (Array.isArray(place.coordinates)) {
+                        [lat, lon] = place.coordinates;
+                        coordString = place.coordinates.join(', ');
+                    } else if (typeof place.coordinates === 'string') {
+                        [lat, lon] = place.coordinates.split(',').map(coord => parseFloat(coord.trim()));
+                        coordString = place.coordinates;
                     } else {
-                        console.error(`Invalid Coordinates format for ${place.Title}:`, place.Coordinates);
+                        console.error(`Invalid Coordinates format for ${place.title}:`, place.coordinates);
                         continue;
                     }
-
                     const placeDiv = document.createElement('div');
                     placeDiv.className = 'place-item';
                     placeDiv.innerHTML = `
                         <div class="place-image-container">
                             <img class="place-image" 
-                                 data-src="${place['Photo Path']}" 
-                                 alt="${place.Title}" 
-                                 onclick="openModal('${place['Photo Path']}')">
-                            <button class="place-image-button" onclick="openModal('${place['Photo Path']}')">
+                                 data-src="${place['thumbnail']}" 
+                                 alt="${place.title}" 
+                                 onclick="openModal('${place['photo_url']}')">
+                            <button class="place-image-button" onclick="openModal('${place['photo_url']}')">
                                 <i class="fas fa-expand"></i>
                             </button>
                         </div>
                         <div class="place-info">
-                            <div class="place-title">${place.Title}</div>
+                            <div class="place-title">${place.title}</div>
                             <div class="place-location">
-                                <span>${place.LocationBY}</span>
-                                <span>${place.Location}</span>
+                                <span>${place.locationBY}</span>
+                                <span>${place.location}</span>
+                            </div>
+                            <div class="date-info">
+                            <span>${place.produced_date}</span>
                             </div>
                             <div class="place-coordinates">
                                 ${coordString}
                             </div>
                         </div>
                     `;
-
-                    const placeInfo = placeDiv.querySelector('.place-info');
-                    placeInfo.addEventListener('click', () => {
-                        if (window.innerWidth <= 768) {
-                            sidebar.classList.remove('open'); // Заменяем 'active' на 'open'
-                            document.getElementById('mobile-menubtn').style.display = 'block';
+            
+                    // Добавляем обработчик клика для карточки места
+                    placeDiv.addEventListener('click', () => {
+                        const coords = parseCoordinates(place); // Получаем координаты
+                        if (!coords) {
+                            console.error(`Failed to parse coordinates for place: ${place.title}`);
+                            return; // Прекращаем выполнение, если координаты некорректны
                         }
-
-                        const targetMarker = allMarkers.find(marker => {
-                            const popupContent = marker.getPopup().getContent();
-                            return popupContent.includes(place.Title);
-                        });
-
-                        if (targetMarker) {
-                            map.setView(targetMarker.getLatLng(), 13);
-                            targetMarker.openPopup();
-                        }
+                        const { lat, lon } = coords; // Деструктурируем объект
+                        map.flyTo([lat, lon], 15); // Перемещаем карту к координатам с зумом 15
                     });
-
+            
                     placeList.appendChild(placeDiv);
                 }
-
                 lazyLoadImages();
             }
 
@@ -528,6 +554,7 @@ function initMapAndData() {
 
 // Инициализация приложения
 document.addEventListener('DOMContentLoaded', () => {
+    modalImage = document.getElementById('modal-image');
     setupMobileMenu();
     initMapAndData();
 });
